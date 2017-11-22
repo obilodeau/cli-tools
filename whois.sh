@@ -9,7 +9,7 @@ PATH=/usr/bin:/bin
 
 IP_LIST=$1
 
-if [ \! -f "$IP_LIST" ]; then
+if [ \! -e "$IP_LIST" ]; then
 	echo "Usage: $0 <ip-list.txt>"
 	exit 1
 fi

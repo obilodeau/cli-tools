@@ -1,4 +1,10 @@
 #!/bin/bash
+#
+# Olivier Bilodeau <olivier@bottomlesspit.org>
+# Copyright (C) 2015, 2016 Olivier Bilodeau
+#
+echo Deprecated. Use uirusu instead.
+exit 0
 
 if [[ "$1zz" == "zz" ]]; then
 	echo Usage: $0 HASH

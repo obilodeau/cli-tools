@@ -1,2 +1,5 @@
 # private things
 .private*
+
+# python things
+__pycache__/
